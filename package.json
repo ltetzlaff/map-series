@@ -1,0 +1,29 @@
+{
+  "name": "map-series",
+  "version": "1.0.0",
+  "description": "Handle an array of promises sequentially like Bluebird.mapSeries",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "prepublish": "npm run buildOnce",
+    "build": "tsc --watch || true",
+    "buildOnce": "tsc",
+    "start": "node dist/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ltetzlaff/node-ts-template.git"
+  },
+  "keywords": ["promise", "sequential", "series", "map-series", "mapSeries", "async", "es6"],
+  "author": "github.com/ltetzlaff",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ltetzlaff/node-ts-template/issues"
+  },
+  "homepage": "https://github.com/ltetzlaff/node-ts-template#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^8.0.2",
+    "typescript": "^2.3.4"
+  }
+}
