@@ -1,9 +1,10 @@
 {
     "compileOnSave": true,
     "compilerOptions": {
-        "module": "es2015",
+        "module": "none",
         "target": "es6",
         "declaration": true,
+        "moduleResolution": "node",
         "outDir": "./dist",
         "strict": true,
         "noImplicitAny": true,
