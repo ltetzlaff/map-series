@@ -1,6 +1,7 @@
 {
     "compileOnSave": true,
     "compilerOptions": {
+        "module": "none",
         "target": "es6",
         "strict": true,
         "declaration": true,

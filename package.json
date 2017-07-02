@@ -1,6 +1,6 @@
 {
   "name": "mapseries",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Handle an array of promises sequentially like Bluebird.mapSeries",
   "main": "dist/index",
   "types": "dist/index",
