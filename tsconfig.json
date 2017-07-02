@@ -1,12 +1,10 @@
 {
     "compileOnSave": true,
     "compilerOptions": {
-        "module": "none",
         "target": "es6",
-        "declaration": true,
-        "moduleResolution": "node",
-        "outDir": "./dist",
         "strict": true,
+        "declaration": true,
+        "outDir": "./dist",
         "noImplicitAny": true,
         "suppressImplicitAnyIndexErrors": true
     },
